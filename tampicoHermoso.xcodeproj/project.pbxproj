@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8363374A1D9968BE00230F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836337491D9968BE00230F49 /* main.m */; };
+		8363374D1D9968BE00230F49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8363374C1D9968BE00230F49 /* AppDelegate.m */; };
+		836337501D9968BE00230F49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8363374F1D9968BE00230F49 /* ViewController.m */; };
+		836337531D9968BE00230F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836337511D9968BE00230F49 /* Main.storyboard */; };
+		836337561D9968BE00230F49 /* tampicoHermoso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 836337541D9968BE00230F49 /* tampicoHermoso.xcdatamodeld */; };
+		836337581D9968BE00230F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836337571D9968BE00230F49 /* Assets.xcassets */; };
+		8363375B1D9968BE00230F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836337591D9968BE00230F49 /* LaunchScreen.storyboard */; };
+		836337661D9968BE00230F49 /* tampicoHermosoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836337651D9968BE00230F49 /* tampicoHermosoTests.m */; };
+		836337711D9968BE00230F49 /* tampicoHermosoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836337701D9968BE00230F49 /* tampicoHermosoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		836337621D9968BE00230F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8363373D1D9968BE00230F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836337441D9968BE00230F49;
+			remoteInfo = tampicoHermoso;
+		};
+		8363376D1D9968BE00230F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8363373D1D9968BE00230F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836337441D9968BE00230F49;
+			remoteInfo = tampicoHermoso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		836337451D9968BE00230F49 /* tampicoHermoso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tampicoHermoso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		836337491D9968BE00230F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8363374B1D9968BE00230F49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8363374C1D9968BE00230F49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8363374E1D9968BE00230F49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8363374F1D9968BE00230F49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		836337521D9968BE00230F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		836337551D9968BE00230F49 /* tampicoHermoso.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tampicoHermoso.xcdatamodel; sourceTree = "<group>"; };
+		836337571D9968BE00230F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8363375A1D9968BE00230F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8363375C1D9968BE00230F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836337611D9968BE00230F49 /* tampicoHermosoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tampicoHermosoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		836337651D9968BE00230F49 /* tampicoHermosoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tampicoHermosoTests.m; sourceTree = "<group>"; };
+		836337671D9968BE00230F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8363376C1D9968BE00230F49 /* tampicoHermosoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tampicoHermosoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		836337701D9968BE00230F49 /* tampicoHermosoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tampicoHermosoUITests.m; sourceTree = "<group>"; };
+		836337721D9968BE00230F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		836337421D9968BE00230F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8363375E1D9968BE00230F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836337691D9968BE00230F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8363373C1D9968BE00230F49 = {
+			isa = PBXGroup;
+			children = (
+				836337471D9968BE00230F49 /* tampicoHermoso */,
+				836337641D9968BE00230F49 /* tampicoHermosoTests */,
+				8363376F1D9968BE00230F49 /* tampicoHermosoUITests */,
+				836337461D9968BE00230F49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		836337461D9968BE00230F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836337451D9968BE00230F49 /* tampicoHermoso.app */,
+				836337611D9968BE00230F49 /* tampicoHermosoTests.xctest */,
+				8363376C1D9968BE00230F49 /* tampicoHermosoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		836337471D9968BE00230F49 /* tampicoHermoso */ = {
+			isa = PBXGroup;
+			children = (
+				8363374B1D9968BE00230F49 /* AppDelegate.h */,
+				8363374C1D9968BE00230F49 /* AppDelegate.m */,
+				8363374E1D9968BE00230F49 /* ViewController.h */,
+				8363374F1D9968BE00230F49 /* ViewController.m */,
+				836337511D9968BE00230F49 /* Main.storyboard */,
+				836337571D9968BE00230F49 /* Assets.xcassets */,
+				836337591D9968BE00230F49 /* LaunchScreen.storyboard */,
+				8363375C1D9968BE00230F49 /* Info.plist */,
+				836337541D9968BE00230F49 /* tampicoHermoso.xcdatamodeld */,
+				836337481D9968BE00230F49 /* Supporting Files */,
+			);
+			path = tampicoHermoso;
+			sourceTree = "<group>";
+		};
+		836337481D9968BE00230F49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				836337491D9968BE00230F49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		836337641D9968BE00230F49 /* tampicoHermosoTests */ = {
+			isa = PBXGroup;
+			children = (
+				836337651D9968BE00230F49 /* tampicoHermosoTests.m */,
+				836337671D9968BE00230F49 /* Info.plist */,
+			);
+			path = tampicoHermosoTests;
+			sourceTree = "<group>";
+		};
+		8363376F1D9968BE00230F49 /* tampicoHermosoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				836337701D9968BE00230F49 /* tampicoHermosoUITests.m */,
+				836337721D9968BE00230F49 /* Info.plist */,
+			);
+			path = tampicoHermosoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		836337441D9968BE00230F49 /* tampicoHermoso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836337751D9968BE00230F49 /* Build configuration list for PBXNativeTarget "tampicoHermoso" */;
+			buildPhases = (
+				836337411D9968BE00230F49 /* Sources */,
+				836337421D9968BE00230F49 /* Frameworks */,
+				836337431D9968BE00230F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tampicoHermoso;
+			productName = tampicoHermoso;
+			productReference = 836337451D9968BE00230F49 /* tampicoHermoso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		836337601D9968BE00230F49 /* tampicoHermosoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836337781D9968BE00230F49 /* Build configuration list for PBXNativeTarget "tampicoHermosoTests" */;
+			buildPhases = (
+				8363375D1D9968BE00230F49 /* Sources */,
+				8363375E1D9968BE00230F49 /* Frameworks */,
+				8363375F1D9968BE00230F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836337631D9968BE00230F49 /* PBXTargetDependency */,
+			);
+			name = tampicoHermosoTests;
+			productName = tampicoHermosoTests;
+			productReference = 836337611D9968BE00230F49 /* tampicoHermosoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8363376B1D9968BE00230F49 /* tampicoHermosoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8363377B1D9968BE00230F49 /* Build configuration list for PBXNativeTarget "tampicoHermosoUITests" */;
+			buildPhases = (
+				836337681D9968BE00230F49 /* Sources */,
+				836337691D9968BE00230F49 /* Frameworks */,
+				8363376A1D9968BE00230F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8363376E1D9968BE00230F49 /* PBXTargetDependency */,
+			);
+			name = tampicoHermosoUITests;
+			productName = tampicoHermosoUITests;
+			productReference = 8363376C1D9968BE00230F49 /* tampicoHermosoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8363373D1D9968BE00230F49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "ITESM CAMPUS TAMPICO";
+				TargetAttributes = {
+					836337441D9968BE00230F49 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					836337601D9968BE00230F49 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 836337441D9968BE00230F49;
+					};
+					8363376B1D9968BE00230F49 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 836337441D9968BE00230F49;
+					};
+				};
+			};
+			buildConfigurationList = 836337401D9968BE00230F49 /* Build configuration list for PBXProject "tampicoHermoso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8363373C1D9968BE00230F49;
+			productRefGroup = 836337461D9968BE00230F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				836337441D9968BE00230F49 /* tampicoHermoso */,
+				836337601D9968BE00230F49 /* tampicoHermosoTests */,
+				8363376B1D9968BE00230F49 /* tampicoHermosoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		836337431D9968BE00230F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8363375B1D9968BE00230F49 /* LaunchScreen.storyboard in Resources */,
+				836337581D9968BE00230F49 /* Assets.xcassets in Resources */,
+				836337531D9968BE00230F49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8363375F1D9968BE00230F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8363376A1D9968BE00230F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		836337411D9968BE00230F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836337501D9968BE00230F49 /* ViewController.m in Sources */,
+				836337561D9968BE00230F49 /* tampicoHermoso.xcdatamodeld in Sources */,
+				8363374D1D9968BE00230F49 /* AppDelegate.m in Sources */,
+				8363374A1D9968BE00230F49 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8363375D1D9968BE00230F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836337661D9968BE00230F49 /* tampicoHermosoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836337681D9968BE00230F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836337711D9968BE00230F49 /* tampicoHermosoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		836337631D9968BE00230F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836337441D9968BE00230F49 /* tampicoHermoso */;
+			targetProxy = 836337621D9968BE00230F49 /* PBXContainerItemProxy */;
+		};
+		8363376E1D9968BE00230F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836337441D9968BE00230F49 /* tampicoHermoso */;
+			targetProxy = 8363376D1D9968BE00230F49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		836337511D9968BE00230F49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836337521D9968BE00230F49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		836337591D9968BE00230F49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8363375A1D9968BE00230F49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		836337731D9968BE00230F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		836337741D9968BE00230F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		836337761D9968BE00230F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tampicoHermoso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.tampicoHermoso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		836337771D9968BE00230F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tampicoHermoso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.tampicoHermoso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		836337791D9968BE00230F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tampicoHermosoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.tampicoHermosoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tampicoHermoso.app/tampicoHermoso";
+			};
+			name = Debug;
+		};
+		8363377A1D9968BE00230F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tampicoHermosoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.tampicoHermosoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tampicoHermoso.app/tampicoHermoso";
+			};
+			name = Release;
+		};
+		8363377C1D9968BE00230F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tampicoHermosoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.tampicoHermosoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tampicoHermoso;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8363377D1D9968BE00230F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tampicoHermosoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.tampicoHermosoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tampicoHermoso;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		836337401D9968BE00230F49 /* Build configuration list for PBXProject "tampicoHermoso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836337731D9968BE00230F49 /* Debug */,
+				836337741D9968BE00230F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836337751D9968BE00230F49 /* Build configuration list for PBXNativeTarget "tampicoHermoso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836337761D9968BE00230F49 /* Debug */,
+				836337771D9968BE00230F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		836337781D9968BE00230F49 /* Build configuration list for PBXNativeTarget "tampicoHermosoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836337791D9968BE00230F49 /* Debug */,
+				8363377A1D9968BE00230F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8363377B1D9968BE00230F49 /* Build configuration list for PBXNativeTarget "tampicoHermosoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8363377C1D9968BE00230F49 /* Debug */,
+				8363377D1D9968BE00230F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		836337541D9968BE00230F49 /* tampicoHermoso.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				836337551D9968BE00230F49 /* tampicoHermoso.xcdatamodel */,
+			);
+			currentVersion = 836337551D9968BE00230F49 /* tampicoHermoso.xcdatamodel */;
+			path = tampicoHermoso.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8363373D1D9968BE00230F49 /* Project object */;
+}
